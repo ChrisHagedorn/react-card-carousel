@@ -107,6 +107,9 @@ function _getTranslationDistances(spread) {
     prev = '-95%';
     next = '-5%';
   }
-
+  else if (spread === SPREAD.XTRAWIDE) {
+    prev = '-140%';
+    next = '-45%';
+  }
   return { prev, next };
 }
